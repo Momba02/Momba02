@@ -1,0 +1,12 @@
+from Satelite import satelite,NetworkSate
+Sate1 = satelite("Ron",60)
+Sate1.set_fuel(123)
+Sate1.add_height(1000)
+print(Sate1.get_height())
+Sate1.set_name("Shlomo")
+Sate2 = satelite("Mars",607)
+Sate2.set_fuel(60)
+net = NetworkSate("Azure",100,3389)
+net.add_height(100)
+print(net.get_height())
+#print(Sate1.get_values())
