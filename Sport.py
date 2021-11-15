@@ -1,2 +1,3 @@
 from Satelite import satelite
-class FilmSate(satelite)
+class FilmSate(satelite):
+    pass
